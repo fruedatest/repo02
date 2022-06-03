@@ -94,3 +94,28 @@ Agregar al ultimo commit, este no se muestra como un nuevo commit en los logs. S
 ```ssh
 	git commit --amend -m "Texto que identifique por que se hizo el commit"
 ```
+
+## GIT PUSH
+
+Subimos al repositorio
+```ssh
+	git push <origien> <branch>
+```
+Subimos un tag
+```ssh
+	git push --tags
+```
+## GIT LOG
+
+Muestra los logs de los commits
+```ssh
+	git log
+```
+Muestras los cambios en los commits
+```ssh
+	git log --oneline --stat
+```
+Muestra graficos de los commits
+```ssh
+	git log --oneline --graph
+```
